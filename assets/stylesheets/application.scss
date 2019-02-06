@@ -14,7 +14,7 @@ $title-color-uns:       	rgba(0, 0, 0, 0.7);
 $moreinfo-color:    		rgba(255, 255, 255, 0.7);
 $updatedat-color: 		rgba(255, 255, 255, 0.0); //hide last updated entirely
 
-$background-color: 		transparent;
+$background-color: #107fad;
 $background-color-transparent-factor: 0.75; //change this to influence transparency factor on simplelist/list background color
 
 $background-color-green: 	rgba(68, 187, 119, $background-color-transparent-factor);
@@ -35,7 +35,6 @@ $icinga-blue: rgba(0, 149, 191, 1);
 // Base styles
 // ----------------------------------------------------------------------------
 html {
-  background-image: url("icinga-hero-background.jpg");
   background-color: $background-color;
   /* Stretch the background image, don't duplicate it */
   -webkit-background-size: cover; /* For WebKit */
